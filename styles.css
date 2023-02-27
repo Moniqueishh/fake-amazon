@@ -1,0 +1,62 @@
+.border-1{
+    border: 1px solid rgb(162, 159, 159);
+}
+
+h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    font-size: 17px;
+ } 
+ 
+ h2 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+ .btn-secondary{
+    background-color: rgb(219, 222, 222);
+    color: black;
+    font-size: 15px;
+ }
+
+
+/* Footer */
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+    color: black;
+} 
+
+#links{
+    text-align: center;
+    
+}
+
+nav{
+    display: block;
+    color: white;
+}
+
+nav a{
+    color: blue;
+    text-decoration: none; /**gets rid of link underlines**/
+}
+
+nav a :hover{
+    color: white;
+}
+
+footer{
+    text-align: center;
+} 
